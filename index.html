@@ -1,0 +1,824 @@
+<!doctype html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+  
+  <head>
+    <meta charset="UTF-8" />
+
+<meta name="description" content="">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/themes/infosec/style.css" />
+<link rel="pingback" href="http://resources.infosecinstitute.com/xmlrpc.php" />
+<script>var ajaxUrl = 'http://resources.infosecinstitute.com/wp-admin/admin-ajax.php';</script>
+
+<!-- This site is optimized with the Yoast SEO plugin v2.3.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>CTF #2: Practical Web Hacking Winners - InfoSec Institute</title>
+<meta name="description" content="Congratulations to our winners and a big shout out to everyone who participated in our second CTF: Practical Website Hacking! Check out the winning write-u"/>
+<link rel="canonical" href="http://resources.infosecinstitute.com/ctf-2-practical-web-hacking-winners/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="CTF #2: Practical Web Hacking Winners - InfoSec Institute" />
+<meta property="og:description" content="Congratulations to our winners and a big shout out to everyone who participated in our second CTF: Practical Website Hacking! Check out the winning write-u" />
+<meta property="og:url" content="http://resources.infosecinstitute.com/ctf-2-practical-web-hacking-winners/" />
+<meta property="og:site_name" content="InfoSec Institute" />
+<meta property="article:section" content="Hacking" />
+<meta property="article:published_time" content="2015-08-06T08:44:40+00:00" />
+<meta property="article:modified_time" content="2015-08-07T09:51:41+00:00" />
+<meta property="og:updated_time" content="2015-08-07T09:51:41+00:00" />
+<meta property="og:image" content="http://resources.infosecinstitute.com/wp-content/uploads/030915_2304_n00bsCTFLab1.png" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="InfoSec Institute &raquo; CTF #2: Practical Web Hacking Winners Comments Feed" href="http://resources.infosecinstitute.com/ctf-2-practical-web-hacking-winners/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/resources.infosecinstitute.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.4"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cptch_stylesheet-css'  href='http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/plugins/captcha/css/style.css?ver=4.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wpjb-glyphs-css'  href='http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/plugins/wpjobboard/public/css/wpjb-glyphs.css?ver=4.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wpjb-css-css'  href='http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/plugins/wpjobboard/public/css/frontend.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='enlighter-local-css'  href='http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/plugins/enlighter/resources/EnlighterJS.min.css?ver=4.2.4' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by Yoast plugin v5.4.4 - Universal enabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-146509-8', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('require', 'displayfeatures');
+	__gaTracker('send','pageview');
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script type='text/javascript' src='http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/themes/infosec/js/vendor/modernizr.min.js'></script>
+<script type='text/javascript' src='http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/themes/infosec/js/vendor/device.min.js'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/mootools/1.5.1/mootools-yui-compressed.js?ver=4.2.4'></script>
+<script type='text/javascript' src='http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/plugins/enlighter/resources/EnlighterJS.min.js?ver=4.2.4'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://resources.infosecinstitute.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://resources.infosecinstitute.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='http://resources.infosecinstitute.com/?p=32585' />
+<script type="text/javascript">/* <![CDATA[ */window.addEvent('domready', function(){if (typeof EnlighterJS == "undefined"){return;};EnlighterJS.Util.Init('pre.EnlighterJSRAW', 'code.EnlighterJSRAW', {"language":"standard","theme":"git","indent":-1,"hover":"hoverEnabled","showLinenumbers":true,"rawButton":true,"infoButton":true,"windowButton":true,"rawcodeDoubleclick":false,"grouping":true,"cryptex":{"enabled":true,"email":"mail@example.tld"}});});/* ]]> */</script>
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+  </head>
+
+  <body class="single single-post postid-32585 single-format-standard without-series">
+    
+    <div id="fb-root"></div>
+    
+          <header class="masthead">
+  
+  <div>
+    <div class="col-3-3">
+      
+      <nav class="top-left">
+        <ul>
+                      <li>
+  <a href="http://infosecinstitute.com">InfoSec Institute</a>
+      <ul>
+              <li>
+          <a href="http://www.infosecinstitute.com/courses/security.html">IT Security Boot Camps</a>
+        </li>
+              <li>
+          <a href="http://www.infosecinstitute.com/infosec_institute/contact_us.html">Contact InfoSec</a>
+        </li>
+              <li>
+          <a href="http://www.infosecinstitute.com/enterprise-wide-training2.html">Enterprise & Government</a>
+        </li>
+          </ul>
+  </li>                      <li>
+  <a href="http://www.intenseschool.com">Intense School</a>
+  </li>                      <li>
+  <a href="http://certs.infosecinstitute.com/">Certification Tracker</a>
+  </li>                  </ul>
+      </nav>
+      
+      <nav class="top-right">
+        <ul>
+                  </ul>
+      </nav>
+      
+    </div>
+  </div>
+  
+  <div>
+    <div class="col-3-3">
+      
+              
+        <div class="logo">
+          <a href="http://resources.infosecinstitute.com">
+            <img src="http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/themes/infosec/assets/imagery/logo.svg" alt="InfoSec Institute" title="InfoSec Institute" width="126">
+          </a>
+        </div>
+          
+            
+      <a class="menu-button mobile" href="#site-navigation" data-attr="main:toggle">Menu</a>
+
+      <nav class="main" id="site-navigation">
+        
+        <a class="mobile" href="#" data-attr="main:remove" aria-hidden="true">Close Menu</a>
+        <a class="mobile" href="#" data-attr="topics:remove" aria-hidden="true">Back</a>
+        <a class="mobile" href="#" data-attr="content-archives:remove" aria-hidden="true">Back</a>
+      
+        <ul>
+          <li class="mobile menu-item menu-item-type-custom menu-item-object-custom menu-item-4748"><a href="http://infosec.wpengine.com">Return Home</a></li><li class="has-dropdown  menu-item menu-item-type-custom menu-item-object-custom menu-item-4750 menu-item-has-children"><a href="" data-attr="topics:set">Topics</a><ul data-menu-container="topics"><li><a href="http://resources.infosecinstitute.com/category/hacking-2/" title="Hacking">
+                          Hacking
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/certifications-training/" title="IT Certifications">
+                          IT Certifications
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/forensics-2/" title="Forensics">
+                          Forensics
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/application-security-2/" title="Application Security">
+                          Application Security
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/pen-testing-1/" title="Penetration Testing">
+                          Penetration Testing
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/general-security-2/" title="General Security">
+                          General Security
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/interviews/" title="Interviews">
+                          Interviews
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/virtualization-security/" title="Virtualization Security">
+                          Virtualization Security
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/wireless-security/" title="Wireless Security">
+                          Wireless Security
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/scada-2/" title="SCADA">
+                          SCADA
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/reverse-engineering-2/" title="Reverse Engineering">
+                          Reverse Engineering
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/data-recovery/" title="Data Recovery">
+                          Data Recovery
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/exploit-development/" title="Exploit Development">
+                          Exploit Development
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/compliance-auditing/" title="Management, Compliance, & Auditing">
+                          Management, Compliance, & Auditing
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/incident-response-resources/" title="Incident Response">
+                          Incident Response
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/certifications-training/cisa/" title="CISA">
+                          CISA
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/certifications-training/cism/" title="CISM">
+                          CISM
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/certifications-training/cissp/" title="CISSP">
+                          CISSP
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/certifications-training/securityplus/" title="Security+">
+                          Security+
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/security-awareness/" title="Security Awareness">
+                          Security Awareness
+                        </a></li><li><a href="http://resources.infosecinstitute.com/category/phishing/" title="Phishing">
+                          Phishing
+                        </a></li></ul></li><li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4758"><a href="http://resources.infosecinstitute.com/contributors/">Contributors</a></li><li class="has-dropdown desktop menu-item menu-item-type-custom menu-item-object-custom menu-item-30046 menu-item-has-children"><a href="#" data-attr="content-archives:set">Content Archives</a><ul data-menu-container="content-archives"><li><a href="http://resources.infosecinstitute.com/2015/" title="2015">
+                          2015
+                        </a></li><li><a href="http://resources.infosecinstitute.com/2014/" title="2014">
+                          2014
+                        </a></li><li><a href="http://resources.infosecinstitute.com/2013/" title="2013">
+                          2013
+                        </a></li><li><a href="http://resources.infosecinstitute.com/2012" title="2012">
+                          2012
+                        </a></li><li><a href="http://resources.infosecinstitute.com/2011" title="2011">
+                          2011
+                        </a></li><li><a href="http://resources.infosecinstitute.com/2010" title="2010">
+                          2010
+                        </a></li></ul></li><li class="mobile menu-item menu-item-type-custom menu-item-object-custom menu-item-30121"><a href="http://resources.infosecinstitute.com/2015">Content Archives</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-32428"><a href="http://resources.infosecinstitute.com/careers/">Job Board</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-32427"><a href="http://resources.infosecinstitute.com/job-titles/">Careers</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-32598"><a href="http://www.phish.io">phish.io</a></li>          
+        </ul>
+      </nav>
+      
+      <nav class="search">
+        <form class="search-form" action="http://www2.infosecinstitute.com/s/12882/ntpoCCBNQ1ttbNTP3ylPLZZeUqLrVgCT" method="get">
+  <fieldset>
+    <input type="text" name="s" class="icon search" id="search" value="">
+    <input type="submit" class="icon search" title="Search">
+  </fieldset>
+</form>
+      </nav>
+      
+    </div>
+  </div>
+  
+</header>          
+    <main>
+      
+      <section class="hero full">
+          
+	<div class="post-col-3-3 wrapper">
+    
+    <div class="post-col-2-3 hook" style="background-image: url('http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads//030915_2304_n00bsCTFLab1-1024x0-c-default.png');">
+      <header>
+        <h1>CTF #2: Practical Web Hacking Winners</h1>
+                <div class="meta">
+  Posted in  <a href="/category/hacking-2">Hacking</a> on August 6, 2015
+</div>      </header>
+      <div class="share horizontal">
+  
+  <span data-attr="share:toggle" class="icon share-l">Share</span>
+  
+  <ul>
+    
+    <li class="twitter">
+      <a class="twitter-share-button"
+        href="https://twitter.com/share"
+        data-size="medium"
+        data-url="http://resources.infosecinstitute.com/ctf-2-practical-web-hacking-winners/"
+        data-count-url="http://resources.infosecinstitute.com/ctf-2-practical-web-hacking-winners/"
+        data-via="InfosecEdu"
+        data-related="infosecedu"
+        data-hashtags="infosec"
+        data-text="CTF #2: Practical Web Hacking Winners">
+      Tweet
+      </a>
+    </li>
+    
+    <li class="google">
+      <div class="g-plus"
+        data-action="share"
+        data-annotation="bubble">
+      </div>
+    </li>
+    
+    <li class="linkedin">
+      <script type="IN/Share" data-counter="right"></script>
+    </li>
+    
+    <li class="reddit">
+      <script type="text/javascript" src="//www.redditstatic.com/button/button1.js"></script>
+    </li>
+    
+    <li class="facebook">
+      <div class="fb-like"
+        data-width="90"
+        data-layout="button_count"
+        data-action="like"
+        data-show-faces="false"
+        data-share="false"
+      ></div>
+    </li>
+    
+  </ul>
+  
+</div>    </div>
+    
+    <div class="post-col-1-3">
+      
+              <div class="endemic-ad" style="background-image: url(http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/5-17.png);">
+  <div>
+    <h3>Ethical Hacking Boot Camp</h3>
+    <h4>Our most popular course!</h4>
+    <p></p>
+    <a href="http://www2.infosecinstitute.com/l/12882/2015-05-05/mxr5t" target="_blank">Click Here!</a>
+  </div>
+</div>            
+      <div class="skillset box  ">
+  
+  <h3>Skillset</h3>
+  
+  <a href="#skillset-modal" rel="modal:open">What's this?</a>
+  
+    
+  <ul>
+          <li>
+        <a href="https://www.skillset.com/skillsets/ethical-hacking-basics" title="Ethical Hacking Basics" target="_blank">Ethical Hacking Basics</a>
+      </li>
+          <li>
+        <a href="https://www.skillset.com/skillsets/threats-and-vulnerabilities" title="Vulnerabilities" target="_blank">Vulnerabilities</a>
+      </li>
+          <li>
+        <a href="https://www.skillset.com/skills/web-application-security-fundamentals" title="Web App Security" target="_blank">Web App Security</a>
+      </li>
+      </ul>
+  
+  
+</div>      
+    </div>
+    
+  </div>
+  
+      </section>
+      
+      <section class="content full">
+        <div class="col-3-3 wrapper">
+                      
+  <div class="main post-col-2-3">
+    <article class="post-content">
+      <p>Congratulations to our winners and a big shout out to everyone who participated in our second CTF: Practical Website Hacking! Check out the winning write-ups in the table below and be sure to keep an eye out for our next CTF challenge which is currently being developed. Until next time!</p>
+<table style="height: 686px;" width="662">
+<tbody>
+<tr>
+<td style="text-align: center;" width="33"><strong>Level</strong></td>
+<td style="text-align: center;" width="65"><strong>Name</strong></td>
+<td style="text-align: center;" width="65"><strong>Solution</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Tiago Alexandre</td>
+<td>http://www.tiagoalexandre.com/security/ctf/2015/07/01/Level-1/</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1n3</td>
+<td>https://crowdshield.com/blog.php?name=exploiting-php-eval-functions</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Sam Sanoop</td>
+<td>https://github.com/snoopythesecuritydog/snoopythesecuritydog.github.io/blob/master/_posts/2015-07-21-infosec-institute-ctf-solutions.md</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Tommy Ingdal</td>
+<td>http://flawedlogic.pw/ctf-infosec-institute-practical-web-hacking/</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Tiago Sintra</td>
+<td>http://henshinhacks.blogspot.pt/2015/07/infosecinstitute-ctf2-writeup.html</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Sharath Unni</td>
+<td>http://sharathunni.blogspot.in/2015/07/ctf-walkthrough-practical-website.html</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Michael Heinzl</td>
+<td>http://awesec.com/writeups/n00bs_ctf2/n00bs_CTF2.php</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Douglas Berdeaux</td>
+<td>https://www.youtube.com/watch?v=4wqZ_s3_3GQ</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Gaurang Bhatnagar</td>
+<td>https://gaurang.withknown.com/2015/level-9-practical-website-hacking</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Thomas Herrell</td>
+<td>https://incydeoutsecurity.wordpress.com/2015/07/22/infosec-institute-level-10-solution/</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Sven Steinbauer</td>
+<td> http://unlogic.co.uk/2015/06/25/infosec-institute-ctf2-dot-0/</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Pedro Núñez</td>
+<td>https://blogs.tunelko.com/2015/06/26/n00bs-ctf-labs-by-infosec-institute-2nd-edition/</td>
+</tr>
+<tr>
+<td>13</td>
+<td>EleMak</td>
+<td>https://tisisire.wordpress.com/2015/06/24/infosecinstitute-com-ctf-level-13-write-up/</td>
+</tr>
+</tbody>
+</table>
+
+      <div class="share vertical">
+
+  <ul>
+    
+    <li class="twitter">
+      <a class="twitter-share-button"
+        href="https://twitter.com/share"
+        data-size="medium"
+        data-url="http://resources.infosecinstitute.com/ctf-2-practical-web-hacking-winners/"
+        data-count-url="http://resources.infosecinstitute.com/ctf-2-practical-web-hacking-winners/"
+        data-count="vertical"
+        data-via="InfosecEdu"
+        data-related="infosecedu"
+        data-hashtags="infosec"
+        data-text="CTF #2: Practical Web Hacking Winners">
+      Tweet
+      </a>
+    </li>
+    
+    <li class="google">
+      <div class="g-plus"
+        data-action="share"
+        data-annotation="vertical-bubble">
+      </div>
+    </li>
+    
+    <li class="linkedin">
+      <script type="IN/Share" data-counter="top"></script>
+    </li>
+    
+    <li class="reddit">
+      <script type="text/javascript" src="//www.redditstatic.com/button/button2.js"></script>
+    </li>
+    
+    <li class="facebook">
+      <div class="fb-like"
+        data-width="90"
+        data-layout="box_count"
+        data-action="like"
+        data-show-faces="false"
+        data-share="false"
+      ></div>
+    </li>
+    
+  </ul>
+
+</div>    </article>
+    <section class="post-author ">
+  
+  <div class="image">
+    <img alt='' src='http://1.gravatar.com/avatar/18d0f1f9c041d6dde44ff7df35884e91?s=96&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/18d0f1f9c041d6dde44ff7df35884e91?s=192&amp;d=mm&amp;r=g 2x' class='avatar avatar-96 photo' height='96' width='96' />
+  </div>
+  
+  <div class="name">
+    <span>Author</span>
+    <h5>
+      <a href="http://resources.infosecinstitute.com/author/ryan">InfoSec Resources</a>
+    </h5>
+  </div>
+  
+  <div class="description">
+    
+  </div>
+  
+    
+</section>  </div>
+  
+      <ul class="sidebar post-col-1-3">
+  
+    
+      
+          <li class="practice-exams">
+        <h4>Free Practice Exams</h4>
+        <ul>
+                      <li>
+              <a href="https://www.skillset.com/certifications/ccna" target="_blank">
+                <img src="http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads//cisco-ccna-logo-lbox-72x40-ffffff.jpg" width="36" height="20" alt="CCNA Practice Exam">
+                CCNA Practice Exam
+              </a>
+            </li>
+                      <li>
+              <a href="https://www.skillset.com/certifications/comptia-networkplus" target="_blank">
+                <img src="http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads//netplus-lbox-72x40-ffffff.jpg" width="36" height="20" alt="Network + Practice Exam">
+                Network + Practice Exam
+              </a>
+            </li>
+                      <li>
+              <a href="https://www.skillset.com/certifications/pmp" target="_blank">
+                <img src="http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads//pmi-lbox-72x40-ffffff.jpg" width="36" height="20" alt="PMP Practice Exam">
+                PMP Practice Exam
+              </a>
+            </li>
+                      <li>
+              <a href="https://www.skillset.com/certifications/securityplus" target="_blank">
+                <img src="http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads//sec+-lbox-72x40-ffffff.jpg" width="36" height="20" alt="Security+ Practice Exam">
+                Security+ Practice Exam
+              </a>
+            </li>
+                      <li>
+              <a href="https://www.skillset.com/certifications/ceh" target="_blank">
+                <img src="http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads//CEH1-lbox-72x40-ffffff.jpg" width="36" height="20" alt="CEH Practice Exam">
+                CEH Practice Exam
+              </a>
+            </li>
+                      <li>
+              <a href="https://www.skillset.com/certifications/cissp" target="_blank">
+                <img src="http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads//cissp-lbox-72x40-ffffff.jpg" width="36" height="20" alt="CISSP Practice Exam">
+                CISSP Practice Exam
+              </a>
+            </li>
+                  </ul>
+      </li>
+        
+    
+      
+          <li class="editors-choice">
+        <h4>Editors Choice</h4>
+        <ul>
+                      <li>
+              <a class="icon post-s" href="http://resources.infosecinstitute.com/can-user-awareness-really-prevent-spear-phishing/">Can Security Awareness Prevent Spearphishing?</a>
+            </li>
+                      <li>
+              <a class="icon post-s" href="http://resources.infosecinstitute.com/ctf-2-practical-web-hacking-winners/">CTF #2: Practical Web Hacking Winners</a>
+            </li>
+                      <li>
+              <a class="icon post-s" href="http://resources.infosecinstitute.com/how-social-engineering-security-awareness-stops-3-common-scams/">How Social Engineering Security Awareness Stops 3 Common Scams</a>
+            </li>
+                  </ul>
+      </li>
+        
+    
+      
+          <li class="bootcamps">
+        <h4>Related Boot Camps</h4>
+        <ul>
+                      <li>
+              <a class="icon right-arrow" href="http://www.infosecinstitute.com/courses/security.html" target="_blank">Information Security</a>
+            </li>
+                      <li>
+              <a class="icon right-arrow" href="http://www.intenseschool.com/boot_camp/cisco/ccna" target="_blank">CCNA</a>
+            </li>
+                      <li>
+              <a class="icon right-arrow" href="http://www.intenseschool.com/boot_camp/pm/pm_professional" target="_blank">PMP</a>
+            </li>
+                      <li>
+              <a class="icon right-arrow" href="http://www.infosecinstitute.com/courses/microsoft-training.html" target="_blank">Microsoft</a>
+            </li>
+                      <li>
+              <a class="icon right-arrow" href="http://www.infosecinstitute.com/courses/incident_respone_network_forensics.html" target="_blank">Incident Response</a>
+            </li>
+                      <li>
+              <a class="icon right-arrow" href="http://www.infosecinstitute.com/courses/information-assurance.html" target="_blank">Information Assurance</a>
+            </li>
+                      <li>
+              <a class="icon right-arrow" href="http://www.infosecinstitute.com/courses/8570-training.html" target="_blank">8570</a>
+            </li>
+                  </ul>
+      </li>
+        
+    
+      
+        
+    
+      
+          <li class="author-posts">
+        <h4>More Posts by Author</h4>
+        <ul>
+                      <li>
+              <a class="icon arrow-right" href="http://resources.infosecinstitute.com/introducing-the-infosec-institute-job-board/">
+                <img src="http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads//Jobs-76x76-c-default.jpg" width="38" height="38" alt="Introducing the InfoSec Institute Job Board">
+                <h5>Introducing the InfoSec Institute Job Board</h5>
+              </a>
+            </li>
+                      <li>
+              <a class="icon arrow-right" href="http://resources.infosecinstitute.com/security-awareness-tips-infographic/">
+                <img src="http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads//security-awareness-76x76-c-default.jpg" width="38" height="38" alt="Security Awareness Tips Infographic">
+                <h5>Security Awareness Tips Infographic</h5>
+              </a>
+            </li>
+                      <li>
+              <a class="icon arrow-right" href="http://resources.infosecinstitute.com/interview-patrick-oliver-graf-ncp-engineering/">
+                <img src="http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads//Interview-04172015-76x76-c-default.jpg" width="38" height="38" alt="Interview: Patrick Oliver Graf, NCP engineering">
+                <h5>Interview: Patrick Oliver Graf, NCP engineering</h5>
+              </a>
+            </li>
+                  </ul>
+      </li>
+        
+    
+    
+</ul>    
+  <ul class="random-posts ">
+      <li style="background-image: url('http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads//spear-phishers-03132013-237x237-c-default.jpg');">
+      <a class="icon post-l" href="http://resources.infosecinstitute.com/can-user-awareness-really-prevent-spear-phishing/" title="Can Security Awareness Prevent Spearphishing?">
+        <h3>Can Security Awareness Prevent Spearphishing?</h3>
+      </a>
+    </li>
+      <li style="background-image: url('http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads//Social-Engineering-02042013-237x237-c-default.jpg');">
+      <a class="icon post-l" href="http://resources.infosecinstitute.com/how-social-engineering-security-awareness-stops-3-common-scams/" title="How Social Engineering Security Awareness Stops 3 Common Scams">
+        <h3>How Social Engineering Security Awareness Stops&hellip;</h3>
+      </a>
+    </li>
+      <li style="background-image: url('http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads//Buffer-Overflow02042014-237x237-c-default.jpg');">
+      <a class="icon post-l" href="http://resources.infosecinstitute.com/buffer-overflow-format-string-attacks-basics-part-2/" title="Buffer Overflow &#038; Format String Attacks: More Basics">
+        <h3>Buffer Overflow &#038; Format String Attacks:&hellip;</h3>
+      </a>
+    </li>
+      <li style="background-image: url('http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads//080515_1223_EmailSecuri2-237x237-c-default.jpg');">
+      <a class="icon post-l" href="http://resources.infosecinstitute.com/email-security-awareness-how-to-get-quick-results/" title="Email Security Awareness: How To Get Quick Results">
+        <h3>Email Security Awareness: How To Get&hellip;</h3>
+      </a>
+    </li>
+  </ul>  
+      
+<div id="disqus_thread">
+    </div>
+
+
+  
+        </div>
+      </section>
+      
+              <footer class="site-footer">
+  
+  <div class="ctas full">
+    
+    <div class="col-3-3 wrapper">
+      
+      <div class="col-1-3">
+        <h6>About InfoSec</h6>
+        <p>InfoSec Institute is the best source for high quality <a href="http://www.infosecinstitute.com" style="color:#fff;">information security training</a>. We have been training Information Security and IT Professionals since 1998 with a diverse lineup of relevant training courses. In the past 16 years, over 50,000 individuals have trusted InfoSec Institute for their professional development needs! </p>
+
+      </div>
+      
+      <div class="col-1-3">
+        <h6>Connect with us</h6>
+        <p>Stay up to date with <a href="http://www.infosecinstitute.com" style="color:#fff;">InfoSec Institute</a> and <a href="http://www.intenseschool.com" style="color:#fff;">Intense School</a> - at info@infosecinstitute.com</p>
+
+        <ul class="footer-social">
+  <li>
+    <div class="fb-like" data-href="http://resources.infosecinstitute.com" data-width="90" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+  </li>
+  <li>
+    <a class="twitter-follow-button" href="https://twitter.com/infosecedu" data-show-count="false" data-lang="en">Follow @infosecedu</a>
+  </li>
+</ul>      </div>
+      
+      <div class="col-1-3">
+        <form action="/newsletter/signup" method="post" class="mailchimp has-loader" novalidate>
+  
+  <aside>
+    <h6>Join our newsletter</h6>
+    <p>Get the latest news, updates & offers straight to your inbox.</p>
+
+  </aside>
+  
+  <fieldset>
+    <input type="email" title="Email address" value="" name="EMAIL" placeholder="Enter your email">
+    <input type="submit" value="Subscribe" class="generic-cta green">
+    <input type="text" name="b_2593cfe26893087ed36e00fe3_ba06ce498c" tabindex="-1" value="">
+  </fieldset>
+  
+</form>      </div>
+      
+    </div>
+    
+  </div>
+  
+  <div class="navigation full">
+    
+    <div class="col-3-3 wrapper">
+      
+      <nav class="footer">
+        <ul>
+                  </ul>
+      </nav>
+
+      <div class="copyright">&copy; InfoSec Institute 2015</div>
+      
+    </div>
+    
+  </div>
+
+</footer>            
+    </main>
+    
+      <div class="modal">
+  <div class="modal-inner">
+    <a rel="modal:close">Close</a>
+    <div class="modal-content"></div>
+  </div>
+</div>
+
+<div id="modal-hidden">
+                <div id="download">
+  <div class="pardot form">
+    <h4 class="pardot-title">File download</h4>
+    <form id="download-form" action="https://go.pardot.com/l/12882/2014-12-11/cqhcw" method="post">
+      
+      <input type="hidden" name="url" value="http://resources.infosecinstitute.com/ctf-2-practical-web-hacking-winners/">
+      
+      <ul>
+        <li data-required>
+          <label>First Name</label>
+          <input name="first_name">
+        </li>
+        <li data-required>
+          <label>Last Name</label>
+          <input name="last_name">
+        </li>
+        <li data-required>
+          <label>Work Phone Number</label>
+          <input name="phone">
+        </li>
+        <li data-required>
+          <label>Work Email Address</label>
+          <input name="email">
+        </li>
+        <li>
+          <label>Job Title</label>
+          <input name="job_title">
+        </li>
+        <li>
+          <label>Does your employer pay for training?</label>
+          <div class="dd">
+            <select name="employer_paid_training">
+              <option value="No">No</option>
+              <option value="Yes">Yes</option>
+            </select>
+          </div>
+        </li>
+        <li class="training-timeline">
+          <label>What is your timeline for training?</label>
+          <div class="dd">
+            <select name="training_timeline">
+              <option value="N/A"></option>
+              <option value="Within a month">Within a month</option>
+              <option value="1-3 months">1-3 months</option>
+              <option value="3-6 months">3-6 months</option>
+              <option value="6-12 months">6-12 months</option>
+              <option value="Over 1 year">Over 1 year</option>
+            </select>
+          </div>
+        </li>
+        <li class="full">
+          <input type="hidden" name="entry_id" value="32585">
+          <input type="hidden" name="entry_title" value="CTF #2: Practical Web Hacking Winners">
+          <input type="hidden" name="entry_url" value="http://resources.infosecinstitute.com/ctf-2-practical-web-hacking-winners/">
+          <input type="submit" class="generic-cta green" value="Download files">
+        </li>
+      </ul>
+      
+      <p>InfoSec institute respects your privacy and will never use your personal information for anything other than to notify you of your requested course pricing. We will never sell your information to third parties. You will not be spammed.</p>
+      
+      <div style="position:absolute; left:-9999px; top: -9999px;">
+        <label for="pardot_extra_field">Comments</label>
+        <input type="text" id="pardot_extra_field" name="pardot_extra_field">
+      </div>
+      
+    </form>
+  </div>
+</div>            <div id="skillset-modal">
+  <div class="skillset window">
+    <h4>What is Skillset?</h4>
+    <aside>
+      
+      <div class="left">
+        <h3>Skillset</h3>
+        <h5>Practice tests & assessments.</h5>
+      </div>
+      
+      <div class="right">
+        <p>Practice for certification success with the Skillset library of over 100,000 practice test questions. We analyze your responses and can determine when you are ready to sit for the test. Along your journey to exam readiness, we will:</p>
+<p></p>
+<p>1. Determine which required skills your knowledge is sufficient<br />
+2. Which required skills you need to work on<br />
+3. Recommend specific skills to practice on next<br />
+4. Track your progress towards a certification exam</p>
+
+      </div>
+      
+    </aside>
+  </div>
+</div>    </div>      
+    <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+
+<script>
+window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+</script>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=552038044933986";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>      
+      <script>var postID = 32585;</script>
+    
+    <script type="text/javascript">
+<!--
+piCId = '1951';
+piAId = '13882';
+
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+-->
+</script><script type='text/javascript' src='http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/plugins/akismet/_inc/form.js?ver=3.1.1'></script>
+<script type='text/javascript' src='http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/themes/infosec/app.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var embedVars = {"disqusConfig":{"platform":"wordpress@4.2.4","language":"","remote_auth_s3":"W10= 8736c7cb682fd386217a95e6bcbf7a6ef12dc954 1438962988","api_key":"1TA9XhBKpqfZxr6kJiBvCescmAiajXtudB0o4aJYPZguLsFA5bUOtWPGbsoOAiku","sso":{"name":"InfoSec Institute","button":false,"url":"http:\/\/resources.infosecinstitute.com\/wp-login.php","logout":"http:\/\/resources.infosecinstitute.com\/wp-login.php?action=logout","width":"800","height":"700"}},"disqusIdentifier":"32585 http:\/\/resources.infosecinstitute.com\/?p=32585","disqusShortname":"infosecinstituteresources","disqusTitle":"CTF #2: Practical Web Hacking Winners","disqusUrl":"http:\/\/resources.infosecinstitute.com\/ctf-2-practical-web-hacking-winners\/","options":{"manualSync":false},"postId":"32585"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/plugins/disqus-comment-system/media/js/disqus.js?ver=4.2.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"infosecinstituteresources"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/plugins/disqus-comment-system/media/js/count.js?ver=4.2.4'></script>
+
+    
+  </body>
+  
+</html>
